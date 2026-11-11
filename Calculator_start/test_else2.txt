@@ -1,0 +1,25 @@
+ using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyNamespace
+{
+    internal class Profile
+    {    static void Main(string[] args)
+        {
+            String name;
+            int age;
+            int height;
+            String dateoOfBirth;
+            String gender;
+            name = "Sallam";
+            age = 99;
+            height = 186;
+            dateoOfBirth = "01.01.2000";
+            gender = "male";
+            Console.WriteLine(name, age, height, dateoOfBirth, gender);
+        }
+    }
+}

@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+class Program
+{   
+
+    static void Main()
+    {
+        Console.Write("Введите первое число: ");
+        double a = Convert.ToDouble(Console.ReadLine());
+        
+
+        Console.Write("Введите оператор (+, -, *, /): ");
+        char op = Convert.ToChar(Console.ReadLine());
+
+        Console.Write("Введите второе число: ");
+        double b = Convert.ToDouble(Console.ReadLine());
+
+        double result = 0;
+
+        switch (op)
+        {
+            case '+': result = a + b; 
+                break;
+            case '-': result = a - b; 
+                break;
+            case '*': result = a * b; 
+                break;
+            case '/': result = a / b; 
+                break;
+            default: Console.WriteLine("Неизвестный оператор"); return;
+        }
+
+        Console.WriteLine($"Результат: {result}");
+    }
+}

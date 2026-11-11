@@ -1,0 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+/*
+    class Programs
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = {1,2,11, 3,4,5,6,7,8,9};
+            int max = numbers.Max();
+        Console.WriteLine($"Максимум {max}");
+    
+        }
+
+    }
+*/
+
+
+
+/*
+using System.Linq;
+class Programm
+{ 
+    static int FindMax(int[] array)
+    {
+            
+     if (array == null || array.Length == 0)
+            throw new ArgumentException("Массив не может быть пустым или null");
+        return array.Max();
+    }
+    static void Main()
+    {
+
+     int[] numbers = { 3, 7, 16, 2, 9, 5, 1, 8 };
+        Console.WriteLine($"Максимум: {FindMax(numbers)}"); // 9
+    }   
+}
+*/
+
+class Programm
+{
+    static int FindMax(int[] array)
+    {
+
+        if (array == null || array.Length == 0)
+            throw new ArgumentException("Массив не может быть пустым или null");
+        return array.Max();
+    }
+    static void Main()
+    {
+
+        int[] numbers = { 3, 7, 16, 2, 9, 5, 1, 8 };
+        Console.WriteLine($"Максимум: {FindMax(numbers)}"); 
+
+    }
+}
+
+
+
+
