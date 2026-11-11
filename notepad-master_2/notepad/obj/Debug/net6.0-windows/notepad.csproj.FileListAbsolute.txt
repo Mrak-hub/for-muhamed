@@ -1,0 +1,17 @@
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\bin\Debug\net6.0-windows\notepad.exe
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\bin\Debug\net6.0-windows\notepad.deps.json
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\bin\Debug\net6.0-windows\notepad.runtimeconfig.json
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\bin\Debug\net6.0-windows\notepad.dll
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\bin\Debug\net6.0-windows\notepad.pdb
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.Form1.resources
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.Properties.Resources.resources
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.csproj.GenerateResource.cache
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.GeneratedMSBuildEditorConfig.editorconfig
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.AssemblyInfoInputs.cache
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.AssemblyInfo.cs
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.csproj.CoreCompileInputs.cache
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.dll
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\refint\notepad.dll
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.pdb
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\notepad.genruntimeconfig.cache
+\\edu.local\public\studenthomes\25301547\Desktop\notepad-master\notepad\obj\Debug\net6.0-windows\ref\notepad.dll
