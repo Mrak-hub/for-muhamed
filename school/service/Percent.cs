@@ -1,0 +1,145 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Calculator
+{
+    internal class Math
+    {
+        #region Percent
+        public double Percent(double num1, double num2)
+        {
+            return (num1 * num2) * 100;
+        }
+        #endregion
+        #region InvPercent
+        public double InvPercent(double num1, double num2)
+        {
+            if (num1 == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("Ошибка. Деление на ноль.");
+                return 0;
+            }
+            else
+            {
+                return ((num2 - num1) / num1) * 100;
+            }
+        }
+        #endregion
+        #region Multiply
+        public double Multiplication(double num1, double num2) => num1 * num2;
+        #endregion
+        #region Sub
+        public double Subtraction(double num1, double num2) => num1 - num2;
+        #endregion
+        #region Add
+        public double Addition(double num1, double num2) => num1 + num2;
+        #endregion
+        #region Factorial
+        public long Factorial(int num1)
+        {
+            int result = 1;
+            while (num1 > 1)
+            {
+                result = result * num1;
+                num1--;
+            }
+            return result;
+        }
+        #endregion
+        #region Div
+        public double Divider(double num1, double num2)
+        {
+            if (num2 == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("Ошибка. Деление на ноль");
+                return 0;
+            }
+            else
+            {
+                return num1 / num2;
+            }
+        }
+        #endregion
+        #region Div%
+        internal double Doubledivider(double num1, double num2)
+        {
+            if (num2 == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("Ошибка. Деление на ноль");
+                return 0;
+            }
+            else
+            {
+                return num1 % num2;
+            }
+        }
+        #endregion
+        #region Count
+        public int Count(double[] count) => count == null ? 0 : count.Length;
+        #endregion
+        #region Sum
+        internal double Sum(double[] numbers)
+        {
+            if (numbers == null || numbers.Length == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("Ошибка. Массив не введен или пуст.");
+                return 0;
+            }
+
+            var total = 0.0;
+            foreach (var i in numbers)
+            {
+                total += i;
+            }
+            return total;
+        }
+        #endregion
+        #region Max
+        internal double Max(double[] numbers)
+        {
+            if (numbers == null || numbers.Length == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("Ошибка. Массив не введен или пуст.");
+                return 0;
+            }
+
+            double max_number = numbers[0];
+            foreach (double i in numbers)
+            {
+                if (i > max_number)
+                {
+                    max_number = i;
+                }
+            }
+            return max_number;
+        }
+        #endregion
+        #region Min
+        public double Min(double[] numbers)
+        {
+            if (numbers == null || numbers.Length == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("Ошибка. Массив не введен или пуст.");
+                return 0;
+            }
+
+            double min_number = numbers[0];
+            foreach (double i in numbers)
+            {
+                if (i < min_number)
+                {
+                    min_number = i;
+                }
+            }
+            return min_number;
+        }
+        #endregion
+    }
+}
